@@ -18,6 +18,7 @@ export AWS_SECRET_ACCESS_KEY=<aws_secret_access_key>
 export AWS_SESSION_TOKEN=<aws_session_token>
 ```
 This will install the cdktf-cli and az login will inject the credentials used to deploy the azure resources and setting AWS credentials will allow credentials to be set to deploy aws resources.
+pipenv install will create a virtual python environment for all dependencies.
 # Run
 ```sh
 cdktf deploy 
